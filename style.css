@@ -1,0 +1,56 @@
+body{
+   margin: 0;
+   padding:0 ;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+   padding: 10px;
+   background-color: rgb(53, 49, 49);
+
+}
+header{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 1em;
+   color: beige;
+}
+#title{
+   flex: 1;
+   display: flex;
+
+}
+header div{
+   flex: 1;
+   display: flex;
+}
+.header1{
+   color: beige;
+   margin: 10px;
+
+
+}
+#header2{
+   color: beige;
+   margin: 10px;
+  
+}
+.mid{
+   padding: 50px;
+  text-align: center;
+  height: 130px;
+   background-color:rgb(246, 246, 249) ;
+  
+}
+.button{
+   color: beige;
+   padding: 10px;
+   background-color: black;
+
+}
+footer{
+   padding: 30px;
+   color:beige;
+   text-align: center;
+  
+   background-color: rgb(53, 49, 49);
+}
